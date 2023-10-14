@@ -1,0 +1,11 @@
+NOTAS DE CLASE SCRIPT.JS
+
+	Formas de almacenar informacion:
+		local --> se guarda indefinidamente hasta que sea eliminada por codigo o borrada del navegador
+		sesion --> Solo se guarda cuando inicias sesion
+
+	metodos del localStorage
+		localStorage.setItem(key, value) --> Se agrega elementos o se pueden modificar
+		localStorage.getItem(key) --> Se obtiene informacion del local
+		localStorage.removeItem(key) --> Borra un elemento del local
+		localStorage.length --> longitud del local
